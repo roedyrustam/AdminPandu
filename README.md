@@ -11,17 +11,17 @@ Pandu Desa 4.0 adalah gerakan kepanduan yang menggabungkan kegiatan pemberdayaan
 
 
 # clone our repo
-
 git clone --depth 1 https://github.com/roedyrustam/AdminPandu
 
 # change directory to our repo
 cd AdminPandu
 
-# Udate Moduls
+# Update Moduls
 composer update
 
 # launch the development 
-php Spark Serve
+php Spark Migrate
+php Spark Serve 
 
 
 ## Setup

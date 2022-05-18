@@ -11,7 +11,7 @@ Pandu Desa 4.0 adalah gerakan kepanduan yang menggabungkan kegiatan pemberdayaan
 
 
 # clone our repo
-# --depth 1 removes all but one .git commit history
+
 git clone --depth 1 https://github.com/roedyrustam/AdminPandu
 
 # change directory to our repo

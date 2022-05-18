@@ -6,12 +6,23 @@ Pandu Desa 4.0 adalah gerakan kepanduan yang menggabungkan kegiatan pemberdayaan
 
 ## Installation & updates
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
+### Quick start
+**Make sure you have Latest New Composer**
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
+```bash
+# clone our repo
+# --depth 1 removes all but one .git commit history
+git clone --depth 1 https://github.com/roedyrustam/AdminPandu
+
+# change directory to our repo
+cd AdminPandu
+
+# Udate Moduls
+composer update
+
+# launch the development 
+php Spark Serve
+
 
 ## Setup
 

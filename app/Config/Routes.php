@@ -43,6 +43,7 @@ $routes->get('create-db', function () {
 
 $routes->addRedirect('/', 'home');
 $routes->get('pandu', 'Pandu::index');
+$routes->get('pandu/add', 'Pandu::create');
 
 /*
  * --------------------------------------------------------------------

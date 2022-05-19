@@ -29,8 +29,9 @@
                         <h3 class="card-title">Daftar Nama Pandu </h3>
                     </div>
                     <div class="card-body">
-                        <button id="table2-new-row-button" class="btn btn-primary mb-4"> Add Pandu</button>
-                        <div class="table-responsive">
+                        <a href="<?= site_url('pandu/add') ?>" button id="table2-new-row-button" class="btn btn-primary mb-4">Add Pandu</a>
+
+                        <div class=" table-responsive">
                             <table class="table table-bordered border text-nowrap mb-0" id="new-edit">
                                 <thead>
                                     <tr>

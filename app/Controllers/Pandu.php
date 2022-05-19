@@ -18,4 +18,9 @@ class Pandu extends BaseController
         $data['pandu'] = $query->getResult();
         return view('pandu/get', $data);
     }
+
+    public function create()
+    {
+        return view('pandu/add');
+    }
 }

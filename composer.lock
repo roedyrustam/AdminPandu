@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "codeigniter4/framework",
-            "version": "v4.4.3",
+            "version": "v4.7.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeigniter4/framework.git",
-                "reference": "a0339851ed3fa122a4a0e7930c62a1463e0cb257"
+                "reference": "v4.7.4"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/codeigniter4/framework/zipball/a0339851ed3fa122a4a0e7930c62a1463e0cb257",
-                "reference": "a0339851ed3fa122a4a0e7930c62a1463e0cb257",
+                "reference": "v4.7.4",
                 "shasum": ""
             },
             "require": {
@@ -1155,16 +1155,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.5.20",
+            "version": "9.6.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "12bc8879fb65aef2138b26fc633cb1e3620cffba"
+                "reference": "9.6.33"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/12bc8879fb65aef2138b26fc633cb1e3620cffba",
-                "reference": "12bc8879fb65aef2138b26fc633cb1e3620cffba",
+                "reference": "9.6.33",
                 "shasum": ""
             },
             "require": {
